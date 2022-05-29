@@ -4,16 +4,14 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  background: #18181b;
+  color: #efefef;
 }
 
 :root{
   --fontSize: 14px;
 }
 
-body{
-  background: #18181b;
-  color: #efefef;
-}
 
 .notion-page{
   max-width:80ch;
