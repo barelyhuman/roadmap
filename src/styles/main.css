@@ -1,0 +1,43 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --fontSize: 14px;
+}
+
+body{
+  background: #18181b;
+  color: #efefef;
+}
+
+.notion-page{
+  max-width:80ch;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.notion-title{
+  font-size:var(--h1-size);
+}
+
+.notion-h2{
+  font-size:var(--h2-size);
+}
+
+.notion-h3{
+  font-size:var(--h3-size);
+}
+
+
+.notion-to-do-item{
+  display: flex;
+  align-items: center;
+  gap:1em;
+}
+
